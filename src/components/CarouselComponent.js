@@ -177,6 +177,18 @@ class CarouselComponent extends React.Component {
                           />
                         </div>
                       </div>
+                      <div className="field">
+                        <label className="label">Payload</label>
+                        <div className="control">
+                          <input
+                            className="input"
+                            type="text"
+                            name="payload"
+                            value={b.payload}
+                            onChange={e => this.handleButtonChange(e, i)}
+                          />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 ))}
